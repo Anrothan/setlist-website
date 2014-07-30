@@ -1,0 +1,209 @@
+body {
+  background-color: #D8D8D8;
+  font-size: 87.5%;
+  font-family: Arial, Tahoma;
+  line-height: 1.5;
+  text-align: left;
+}
+.body {
+  margin: 0 auto;
+  width: 70%;
+  clear: both;
+}
+a {
+  text-decoration: none;
+}
+a:link, a:visited {
+  color: #08298A;
+}
+a:hover, a:active {
+  color: #2E64FE;
+}
+.the_header img.resize {
+  width: 20%;
+  height: auto;
+  margin: 2% 0;
+}
+.main_header nav {
+  background-color: #666;
+  height: 40px;
+  -moz-border-radius: 5px;
+  -webkit-border-radius: 5px;
+}
+.main_header nav ul {
+  list-style: none;
+  margin: 0 auto;
+}
+.main_header nav ul li {
+  float: center;
+  display: inline;
+}
+.main_header nav a:link, .main_header nav a:visited {
+  color: #fff;
+  display: inline-block;
+  padding-top: 10px;
+  padding-bottom: 9px;
+  padding-right: 25px;
+  padding-left: 25px;
+}
+.main_header nav a:hover, .main_header nav a:active, .main_header nav .music a:link, .main_header nav .music a:visited {
+  background-color: #A9BCF5;
+  text-shadow: none;
+}
+.main_header nav ul li a {
+  border-radius: 5px;
+  -moz-border-radius: 5px;
+	-webkit-border-radius: 5px;
+}
+.main_content {
+  line-height: 25px;
+  border-radius: 5px;
+  -moz-border-radius: 5px;
+	-webkit-border-radius: 5px;
+  overflow: hidden;
+}
+.content {
+  width: 70%;
+  float: left;
+}
+.top_article {
+  background-color: #fff;
+  border-radius: 5px;
+  -moz-border-radius: 5px;
+	-webkit-border-radius: 5px;
+  margin-top: 3.5%;
+  padding: 3% 5%;
+}
+article footer p {
+  font-style: italic;
+  color: #BDBDBD;
+}
+.middle_article {
+  background-color: #fff;
+  border-radius: 5px;
+  -moz-border-radius: 5px;
+	-webkit-border-radius: 5px;
+  margin-top: 2%;
+  padding: 3% 5%;
+}
+.bottom_article {
+  background-color: #fff;
+  border-radius: 5px;
+  -moz-border-radius: 5px;
+	-webkit-border-radius: 5px;
+  margin-top: 2%;
+  padding: 3% 5%;
+}
+.top_sidebar {
+	width: 21%;
+	float: left;
+	background-color: #A9BCF5;
+	border-radius: 5px;
+	-moz-border-radius: 5px;
+	-webkit-border-radius: 5px;
+	margin: 2.5% 0 2% 3%;
+	padding: 2% 3%;
+}
+.middle_sidebar {
+	width: 21%;
+	float: left;
+	background-color: #A9BCF5;
+	border-radius: 5px;
+	-moz-border-radius: 5px;
+	-webkit-border-radius: 5px;
+	margin: 1.5% 0 2% 3%;
+	padding: 2% 3%;
+}
+.bottom_sidebar {
+	width: 21%;
+	float: left;
+	background-color: #A9BCF5;
+	border-radius: 5px;
+	-moz-border-radius: 5px;
+	-webkit-border-radius: 5px;
+	margin: 1.5% 0 2% 3%;
+	padding: 2% 3%;
+}
+.the_footer {
+  width: 100%;
+  float: left;
+  border-radius: 5px;
+  -moz-border-radius: 5px;
+  -webkit-border-radius: 5px;
+  background-color: #666;
+  margin: 2% 0;
+}
+.the_footer p {
+  width: 92%;
+  margin: 1% auto;
+  color: #fff;
+  font-style: bold;
+  position: center;
+  text-align: center;
+}
+
+@media only screen and (min-width: 150px) and (max-width: 600px)
+{
+	.body {
+		width: 90%;
+		font-size: 95%;
+		}
+	.main_header img {
+		width: 100%;
+		}
+	.main_header nav {
+		height: 160px;
+		}
+	.main_header nav ul {
+		padding-left: 0;
+		}
+	.main_header nav ul li {
+		width: 100%;
+		text-align: center;
+		}
+	.main_header nav a:link, .main_header nav a:visited {
+		padding: 10px 25px;
+		height: 20px;
+		display: block;
+		}
+	.content {
+		width: 100%;
+		float: left;
+	}
+	.top_article {
+		background-color: #fff;
+		border-radius: 5px;
+		-moz-border-radius: 5px;
+		-webkit-border-radius: 5px;
+		margin-bottom: 3.5%;
+		margin-top: 3.5%;
+		padding: 3% 5%;
+	}
+	article footer p {
+		display: none;
+	}
+	.middle_article {
+		background-color: #fff;
+		border-radius: 5px;
+		-moz-border-radius: 5px;
+		-webkit-border-radius: 5px;
+		margin-bottom: 3.5%;
+		margin-top: 3.5%;
+		padding: 3% 5%;
+	}
+	.bottom_article {
+		background-color: #fff;
+		border-radius: 5px;
+		-moz-border-radius: 5px;
+		-webkit-border-radius: 5px;
+		margin-bottom: 3.5%;
+		margin-top: 3.5%;
+		padding: 3% 5%;
+	}
+	.top_sidebar, .middle_sidebar, .bottom_sidebar {
+		background-color: #819FF7;
+		font: #fff;
+		width: 94%;
+		margin: 2% 0 2% 0;
+		padding: 2% 3%;
+	}
