@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+<head class='the_header'>
+  <%= image_tag "Setlist_Header_01.png", class: "banner" %>
+  <title>Setlist</title>
+  
+  <meta charset='utf-8'/>
+  <meta name='viewport' content='width=device-width, initial-scale-1.0'>  
+  <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track' => true %>
+  <%= javascript_include_tag 'application', 'data-turbolinks-track' => true %>
+  <%= csrf_meta_tags %>
+</head>
+<body class='body'>
+<%= render 'layouts/header' %>
+<%# render 'layouts/sidebar' %>
+
+<%= yield %>
+
+
+
+<%= render 'layouts/footer' %>
+
+</body>
+</html>
