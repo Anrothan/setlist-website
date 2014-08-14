@@ -1,0 +1,11 @@
+<h1> Mass Upload </h1>
+
+<%= form_tag({ action: :create }, { multipart: true }) do %>
+	
+	<%= label_tag :uploads, "Scan your song:" %>
+	<%= file_field_tag :uploads, name: 'uploads[]', multiple: true %>
+
+	<br />
+	<%= submit_tag "Submit" %>
+
+<% end %>

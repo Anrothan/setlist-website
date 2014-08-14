@@ -10,7 +10,10 @@
   <%= javascript_include_tag 'application', 'data-turbolinks-track' => true %>
   <%= csrf_meta_tags %>
 </head>
+
+
 <body class='body'>
+<%= render 'layouts/flash' %>
 <%= render 'layouts/header' %>
 <%# render 'layouts/sidebar' %>
 
